@@ -8,7 +8,7 @@ function handleClick() {
 }
 
 return (
-<div className="ui card eight wide column pigTile" onClick = {handleClick}>
+<div className="ui card two wide column pigTile" onClick = {handleClick}>
 <h2>{name}</h2>
 <img src= {image} alt={name}></img>
 
